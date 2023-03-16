@@ -1,0 +1,8 @@
+Krish MLOPS pipeline:
+
+https://github.com/genbid007-ml/MLOPS_2023
+
+create a blank env in GitHub and create a folder in your local directory.
+
+Enter into the directory and start vs code by code .
+
