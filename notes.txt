@@ -1,0 +1,60 @@
+Agenda:
+Project setup
+init and create a new repo in git hub:
+https://github.com/genbid007-ml/MLOPS_2023.git
+:: conda init for problem in conda commands
+
+1. new env in the VSCode
+2. setup.py and its imp
+3. requirements.txt link with setup.py
+
+utils: logger and exceptions handling
+
+
+step one: create a new folder and goto anaconda prompt and select to go to that prticular folder.
+
+You will be now in the base env and run this command will open vscode "code ."
+
+now in the vscode go to terminal and run this command i  order to cretae a new venv env under same folder "mlops"
+
+"conda create -p venv python==3.8 -y"
+
+step two: activate the env by "conda activate venv/" will go that particular folder
+then start initialising git by "git init"
+now create a new readme.md file in the main project folder
+
+
+3. now we need to commit the code to do this we add global user and name
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+then git commit -m "my forst commit" will work
+git status
+git init
+git add readme
+git commit -m “your message”
+git remote add origin https://github.com/genbid007-ml/MLOPS_2023.git
+git pull –rebase
+git push -f origin master
+
+if credentials set for different id do bellow:
+Click Start
+Type: Credential Manager (on Windows 10, this is under "Start → Settings". Then search for "Credential Manager")
+See the Windows Credentials Manager shortcut and double-click it to open the application.
+Once the application is open, click on the Windows Credentials tab.
+Locate the credentials that you want to remove/update. They will start with "git:" and might begin with "ada:"
+Click on the credential entry. It will open a details view of the entry.
+Click Edit or Remove as required and confirm.
+Later rinse and repeat as necessary.
+
+
+
+###########3
+setup.py used to python as package
+
+
+also we add requirements.txt with all the packages we need and then at the end we put "-e ." which will run the setup.py at the end of the packages.
+
+
+
